@@ -12,7 +12,7 @@ import os
 current_dir = os.path.dirname(__file__)
 
 # Construct the relative path to the CSV file
-file_path = os.path.join(current_dir, 'BEMM466_Business_Project_Data_File', 'Cleaned_Trustpilot_Reviews.csv')
+file_path = os.path.join(current_dir, 'Cleaned_Trustpilot_Reviews.csv')
 
 # Load the CSV file using the relative path
 df = pd.read_csv(file_path, encoding='ISO-8859-1')
